@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="/q.png" />
+    <title>Qoute Generator</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="qoute-container" id="qoute-container">
+      <!-- Qoute -->
+      <div class="qoute-text">
+        <i class="fas fa-quote-left"></i>
+        <span id="qoute"></span>
+      </div>
+      <!-- author -->
+      <div class="qoute-author">
+        <span id="auther"></span>
+      </div>
+      <!-- buttons -->
+      <div class="button-container">
+        <button class="twitter-btn" id="twitter" title="Tweet This!">
+          <i class="fab fa-twitter"></i>
+        </button>
+        <button id="new-qoute">New Qoute</button>
+      </div>
+    </div>
+    <!-- loader -->
+    <div class="loader" id="loader"></div>
+
+    <!-- script -->
+    <script src="./script.js"></script>
+  </body>
+</html>
